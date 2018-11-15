@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Simple Runner Game</title>
+		<link type = "text/css" rel = "stylesheet" href = 'CrazyRunner.css'
+	</head>
+
+	<body>
+		<h1>Crazy Runner</h1>
+		<div id="canvasContainer">
+			<div id="textContainer">
+				<h2 id="alert"></h2>
+				<ul>
+					<a href ="#"><li id='restart'>Restart</li></a>
+				</ul>
+				<h3 style = "display:inline"></br>  High Score: </h3>
+				<p id = "highScore" style = "display:inline"></p>
+				<h3 style = "display:inline"></br> Score: </h3>
+				<p id = "score" style = "display:inline"></p>
+				<p style = "display:inline" id ='HPTitle'> </br>HP: </p>
+				<p id = "HP" style = "display:inline"></p>
+				<h3> Difficulty: </h3>
+				<!--<button type="button" onclick="enemySpeed =1.5">Easy</button>
+				<button type="button" onclick="enemySpeed =3">Medium</button>
+				<button type="button" onclick="enemySpeed =5">Hard</button>-->
+				<div class="difficultyBar">
+					<ul>
+						<a href ="#"><li id='easy'>Easy</li></a>
+						<a href = "#"><li id='med'>Medium</li></a>
+						<a href ="#"><li id='hard'>Hard</li></a>
+					</ul>
+				</div>
+			</div>
+			<canvas id="gameCanvas" width = 750px height = 500px> Your browser doesn't support canvas </canvas>
+		</div>
+	</body>
+	<footer>
+		<script type="text/javascript" src = "CrazyRunner.js"></script>
+	</footer>
+</html>
