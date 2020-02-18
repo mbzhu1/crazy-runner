@@ -26,7 +26,7 @@ var Checkpoint = {x:canvas.width-100, y:canvas.height-100, width:50, height:50};
 var newCheckpoint = {x:canvas.width-100, y:canvas.height-100, width:50, height:50};
 var checkpointRespawnInterval = 2000;
 var flagImg = new Image();
-flagImg.src = "troll_flag.png"
+flagImg.src = "flag.png"
 
 var healthPackList = [];
 var healthPack1 = {x:canvas.width * 3/4, y: canvas.height * 1/4, width: 35, height:35}
